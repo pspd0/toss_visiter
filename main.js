@@ -14,7 +14,5 @@
         i++
 
         console.log(i)
-
-        await wait(3000)
     }
 })()
