@@ -25,6 +25,6 @@ func main() {
 
 		value := html.Find("span.css-a774xx").Text()
 
-		fmt.Println(value + "\n")
+		fmt.Println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" + value)
 	}
 }
