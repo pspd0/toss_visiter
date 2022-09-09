@@ -1,4 +1,4 @@
-<p>
-JS로도 됩니다
-GOLANG으로도 됩니다
-</p>
+<h2>
+JS OK
+GO OK
+</h2>
