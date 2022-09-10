@@ -9,9 +9,14 @@ import (
 )
 
 func main() {
-	for {
-		id := "rorack"
+	var id string
+	fmt.Print("Enter Your Toss id: ")
 
+	fmt.Scan(&id)
+
+	fmt.Println("")
+
+	for {
 		req, err := http.Get("https://toss.me/" + id)
 
 		if err != nil {
