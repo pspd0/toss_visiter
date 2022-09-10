@@ -15,8 +15,8 @@ func main() {
 	fmt.Scan(&id)
 
 	fmt.Println("")
-
-	for {
+	
+	for i := 0; i < 5; i++ {
 		req, err := http.Get("https://toss.me/" + id)
 
 		if err != nil {
@@ -29,7 +29,8 @@ func main() {
 
 		value := html.Find("span.css-a774xx").Text()
 
-		fmt.Println(value)
+		fmt.Println("\x1b[1m\x1b[32m" + value + "\x1b[0m")
+
 		time.Sleep(time.Second)
 	}
 }
