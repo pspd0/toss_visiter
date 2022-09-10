@@ -9,9 +9,7 @@ import (
 )
 
 func main() {
-	n := 0
-
-	for n < 1 {
+	for {
 		id := "rorack"
 
 		req, err := http.Get("https://toss.me/" + id)
