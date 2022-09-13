@@ -16,7 +16,7 @@ func checkErr(err error) {
 
 func main() {
 	var id string
-	fmt.Print("Enter Your Toss id: ")
+	fmt.Print("\Enter Your Toss id: ")
 
 	fmt.Scan(&id)
 
